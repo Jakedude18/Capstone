@@ -23,8 +23,8 @@ class dcartPoleAgent:
         final_epsilon=0.05,
         discount_factor=0.99,
         buffer_size=10000,
-        batch_size=128,
-        target_update_freq=500,
+        batch_size=64,
+        target_update_freq=200,
         state_dim=4,
         action_dim=2
     ):
